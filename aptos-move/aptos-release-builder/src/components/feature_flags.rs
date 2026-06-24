@@ -574,6 +574,7 @@ impl From<AptosFeatureFlag> for FeatureFlag {
             AptosFeatureFlag::DISTRIBUTE_TRANSACTION_FEE => FeatureFlag::DistributeTransactionFee,
             AptosFeatureFlag::GOVERNED_GAS_POOL => FeatureFlag::GovernedGasPool,
             AptosFeatureFlag::STAKE_REWARD_USING_TREASURY => FeatureFlag::SteakRewardUsingTreasury,
+            _ => todo!(),
         }
     }
 }
